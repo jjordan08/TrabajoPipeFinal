@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { MyPipePipe } from './pipes/letrasintercalada/my-pipe.pipe';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +8,7 @@ import { MyPipePipe } from './pipes/letrasintercalada/my-pipe.pipe';
 export class AppComponent {
 
 
-  fecha1= '2020/10/27, 22:54';
+  fecha1 = '2020/10/27, 23:16';
   fecha2 = '2020/10/27, 20:04';
   fecha3 = '2020/10/26, 21:38';
   fecha4 = '2020/10/25, 21:38';
@@ -17,9 +16,9 @@ export class AppComponent {
   fecha6 = '2020/05/30, 21:38';
   fecha7 = '2020/05/27, 21:38';
   num1 = 5;
-  var1= 'hola';
-  var2= 'hola como estas';
-  var3= 'hola como estas tu';
+  var1 = 'hola';
+  var2 = 'hola como estas';
+  var3 = 'hola como estas tu';
 
   constructor() {
   }
